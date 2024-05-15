@@ -20,12 +20,10 @@ go version
 #Build binary
 ~~~
 cd $HOME
-git clone https://github.com/airchains-network/junction.git
-cd junction
-git checkout v0.1.0
-make install
+rm -rf junction
+wget https://github.com/airchains-network/junction/releases/download/v0.1.0/junctiond
+chmod +x junctiond
 sudo mv junctiond /usr/local/bin
-junctiond --help
 ~~~
 
 #Init validator
