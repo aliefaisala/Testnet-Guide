@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt-get install -y make git-core libssl-dev pkg-config libclang-12-dev build-essential protobuf-compiler -y
 ~~~
-#Install Go
+#Go 설치
 ~~~
 cd $HOME
 wget -c -O go1.22.3.linux-amd64.tar.gz https://go.dev/dl/go1.22.3.linux-amd64.tar.gz
